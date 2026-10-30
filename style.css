@@ -166,7 +166,46 @@ nav a:hover {
   background: #3b3440;
   border-color: #8a1538;
 }
+/* Dark Mode */
+body.dark-mode {
+  background: #17151a;
+  color: #f3f0f2;
+}
 
+body.dark-mode header {
+  background: #211e24;
+  border-right-color: #38333b;
+}
+
+body.dark-mode header h1 {
+  color: #c04a70;
+}
+
+body.dark-mode header p,
+body.dark-mode .theme-label,
+body.dark-mode .profile-text h3 {
+  color: #c4bec5;
+}
+
+body.dark-mode nav a {
+  color: #e5dfe4;
+}
+
+body.dark-mode nav a:hover {
+  color: #c04a70;
+}
+
+body.dark-mode section {
+  background: #211e24;
+}
+
+body.dark-mode a {
+  color: #c04a70;
+}
+
+body.dark-mode footer {
+  color: #c4bec5;
+}
 .switch input:checked + .slider::before {
   transform: translateX(48px);
   background: #c04a70;
