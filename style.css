@@ -6,22 +6,16 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
-header, main, footer {
-  width: min(960px, 92%);
-  margin: auto;
-}
-header { padding: 48px 0 24px; }
-nav { display: flex; flex-wrap: wrap; gap: 16px; }
-section {
-  margin: 20px 0;
-  padding: 24px;
-  background: white;
-  border-radius: 12px;
-}
-img { max-width: 100%; height: auto; }
-a { color: #8a1538; }
+/* Sidebar */
 header {
-  padding: 48px 0 24px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 240px;
+  height: 100vh;
+  padding: 40px 25px;
+  background: white;
+  border-right: 1px solid #e5e7eb;
 }
 
 header h1 {
@@ -30,18 +24,47 @@ header h1 {
 }
 
 header p {
-  margin-top: 0;
   color: #4b5563;
+  font-size: 14px;
 }
 
 nav {
-  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 30px;
 }
 
 nav a {
+  color: #374151;
   text-decoration: none;
   font-weight: bold;
 }
+
+nav a:hover {
+  color: #8a1538;
+}
+
+/* Main content */
+main {
+  margin-left: 240px;
+  padding: 40px;
+  max-width: 1000px;
+}
+
+section {
+  margin: 0 0 25px;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .profile-pic {
   width: 180px;
   height: 180px;
@@ -53,6 +76,16 @@ nav a {
   width: 250px;
   height: auto;
   margin-top: 20px;
+}
+
+a {
+  color: #8a1538;
+}
+
+/* Footer */
+footer {
+  margin-left: 240px;
+  padding: 20px 40px;
 }
 
 nav a:hover {
