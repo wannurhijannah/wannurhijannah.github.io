@@ -42,6 +42,18 @@ nav a {
   text-decoration: none;
   font-weight: bold;
 }
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.utm-logo {
+  width: 250px;
+  height: auto;
+  margin-top: 20px;
+}
 
 nav a:hover {
   text-decoration: underline;
