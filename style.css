@@ -270,3 +270,29 @@ body.dark-mode footer {
   color: #6b7280;
   font-size: 12px;
 }
+body.dark-mode .section-intro {
+  color: #c4bec5;
+}
+
+body.dark-mode .work-card {
+  background: #242127;
+  border-color: #38333b;
+}
+
+body.dark-mode .work-card h3 {
+  color: #f3f0f2;
+}
+
+body.dark-mode .work-card p {
+  color: #c4bec5;
+}
+
+body.dark-mode .work-meta {
+  border-top-color: #38333b;
+  color: #aaa3ac;
+}
+
+body.dark-mode .work-status {
+  background: #3b2831;
+  color: #c04a70;
+}
