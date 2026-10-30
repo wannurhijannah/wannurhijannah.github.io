@@ -87,6 +87,21 @@ footer {
   margin-left: 240px;
   padding: 20px 40px;
 }
+.profile-intro {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 25px 0 35px;
+}
+
+.profile-text h1 {
+  margin: 0 0 10px;
+}
+
+.profile-text h3 {
+  margin: 0;
+  color: #4b5563;
+}
 
 nav a:hover {
   text-decoration: underline;
