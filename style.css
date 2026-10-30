@@ -210,3 +210,63 @@ body.dark-mode footer {
   transform: translateX(48px);
   background: #c04a70;
 }
+/* Selected Work Cards */
+
+.section-intro {
+  color: #4b5563;
+  margin-bottom: 30px;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.work-card {
+  padding: 25px;
+  background: #fffdfb;
+  border: 1px solid #eadde1;
+  border-radius: 14px;
+  transition: 0.3s;
+}
+
+.work-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(138, 21, 56, 0.08);
+}
+
+.work-number {
+  font-size: 13px;
+  font-weight: bold;
+  color: #8a1538;
+}
+
+.work-card h3 {
+  margin: 10px 0;
+  color: #1f2937;
+}
+
+.work-card p {
+  color: #4b5563;
+  font-size: 14px;
+}
+
+.work-status {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 12px;
+  background: #f7e6eb;
+  color: #8a1538;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.work-meta {
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid #eadde1;
+  color: #6b7280;
+  font-size: 12px;
+}
