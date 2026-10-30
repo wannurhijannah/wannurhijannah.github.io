@@ -106,3 +106,68 @@ footer {
 nav a:hover {
   text-decoration: underline;
 }
+/* Dark Mode Toggle */
+.theme-toggle-container {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.theme-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  color: #374151;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.theme-label span:first-child {
+  font-size: 18px;
+}
+
+/* Toggle switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 86px;
+  height: 38px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background: #d8e8df;
+  border: 3px solid #9acbb7;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 3px;
+  top: 2px;
+  background: #9acbb7;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.switch input:checked + .slider {
+  background: #3b3440;
+  border-color: #8a1538;
+}
+
+.switch input:checked + .slider::before {
+  transform: translateX(48px);
+  background: #c04a70;
+}
